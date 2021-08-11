@@ -1,8 +1,9 @@
 *{
   margin: 0px;
-  }
+  
+}
   body {
-  background-color: rgb(254, 255, 185);
+  background-color: rgb(253, 255, 112)!important;
   overflow-x: hidden;
   }
   .fHeader{
@@ -11,7 +12,6 @@
     padding: 15px;
     font-family: "Poppins,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif";
     font-size: 40px;
-    max-width: 100%;
   }
   .fHeader a{
     text-decoration: none;
@@ -22,13 +22,12 @@
   color: white;
   font-size: 40%;
   float: right;
-  padding-top: 10px;
   padding: 10px 22px;
   border-style:solid ;
   border-radius: 8px;
   border-color: black;
   transition-duration: 0.5s;
-  width: 10%;
+  display: block;
   }
   .resume:hover{
     background-color: #bebebe;
@@ -36,58 +35,69 @@
   }
   .Abt{
     font-size: 25px;
-    
-    margin: 50px;
-    padding: 30px;
-    height: 50%;
+    margin: auto;
+    padding: 10px;
+    width: auto;
     text-align: center;
     background-color: rgba(228, 228, 228, 0.548);
-    backdrop-filter: blur(8px);
   }
-  
-  .skill{
-    font-size: 25px;
-    margin: 50px;
-    background-color: rgba(228, 228, 228, 0.548);
-    backdrop-filter: blur(8px);
-    font-family: "Sofia", sans-serif;
-    text-shadow: 3px 3px 3px #ababab;
+  .icons a{
+    color: black;
     padding: 20px;
-    height: 100%; 
-    width: 50%;
+    font-size: 40px;
+    display: inline-block;
+    width: auto;
+    height: auto;
+  }
+  .row{
+    height: auto;
+    overflow: hidden;  
+    padding: 50px;
+  }
+  .row col-sm-6{
+    overflow-x: hidden;
+  }
+  .temp{
+    display: inline;
+  }
+  .skill{
+    margin: 50px;
+    font-size: 25px;
+    background-color: rgba(228, 228, 228, 0.548);
+    padding: 20px;
+    height:auto; 
+    width: auto;
+
   }
   .certi{
     font-size: 25px;
     margin: 50px;
     background-color: rgba(228, 228, 228, 0.548);
-    backdrop-filter: blur(8px);
-    font-family: "Sofia", sans-serif;
-    text-shadow: 3px 3px 3px #ababab;
     padding: 20px;
-    height: 100%; 
-    width: 50%;
+    height: auto; 
+    width:auto;
   }
   .proj{
     font-size: 25px;  
     margin: 50px;
-    
     background-color: rgba(228, 228, 228, 0.548);
-    backdrop-filter: blur(8px);
-    font-family: "Sofia", sans-serif;
-    text-shadow: 3px 3px 3px #ababab;
     padding: 20px;
-    height: 100%; 
-    width: 50%;
+    height:auto; 
+    width: auto;
   }
   .other{
     font-size: 25px;  
     margin: 50px;
     background-color: rgba(228, 228, 228, 0.548);
-    backdrop-filter: blur(8px);
-    font-family: "Sofia", sans-serif;
-    text-shadow: 3px 3px 3px #ababab;
     padding: 20px;
-    height: 100%; 
-    width: 50%;
-    
+    height: auto; 
+    width: auto;    
+  }
+  .end{
+    text-align: center;
+    color: red;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(226, 255, 197);
+    width: auto;
   }
