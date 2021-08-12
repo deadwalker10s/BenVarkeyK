@@ -44,7 +44,7 @@
   .icons a{
     color: black;
     padding: 20px;
-    font-size: 40px;
+    font-size: 50px;
     display: inline-block;
     width: auto;
     height: auto;
@@ -52,7 +52,7 @@
   .row{
     height: auto;
     overflow: hidden;  
-    padding: 50px;
+    padding: 20px;
   }
   .row col-sm-6{
     overflow-x: hidden;
