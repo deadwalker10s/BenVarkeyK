@@ -1,2 +1,2 @@
-# BenVarkeyK.github.io
+# BenVarkeyK
 My Protfolio Website
