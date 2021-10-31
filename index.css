@@ -3,12 +3,12 @@
   
 }
   body {
-  /* background-color:yellow !important; */
-  background-image: linear-gradient(rgb(241, 109, 109), rgb(241, 241, 133));
+  /* background-image: linear-gradient(rgb(241, 109, 109), rgb(241, 241, 133)); */
+  background-image: linear-gradient(rgb(248, 234, 208) , #f3edb3);
   overflow-x: hidden;
   }
   .fHeader{
-    background-image: linear-gradient(to right, rgb(241, 109, 109), rgb(241, 241, 133));
+    background-image: linear-gradient(to right,rgb(248, 234, 208) , #f3edb3);
     color:black;
     padding: 15px;
     font-family: "Poppins,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif";
@@ -19,7 +19,7 @@
     color: inherit;
   }
   .resume{
-  background-color:rgb(245, 98, 98);
+  background-color:#f3edb3;
   color: black;
   font-size: 40%;
   float: right;
@@ -78,6 +78,7 @@
     height: auto; 
     width:auto;
   }
+ 
   .proj{
     font-size: 25px;  
     margin: 50px;
