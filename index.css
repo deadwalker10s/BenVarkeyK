@@ -30,7 +30,15 @@
     font-weight: 700;
     text-decoration: none;
   }
-  .resume{
+  .end{
+    text-align: center;
+    color: red;
+    font-size: large;
+    font-weight: bold;
+    
+    width: auto;
+  }
+  /* .resume{
   background-color:#f3edb3;
   color: black;
   font-size: 40%;
@@ -106,12 +114,5 @@
     padding: 20px;
     height: auto; 
     width: auto;    
-  }
-  .end{
-    text-align: center;
-    color: red;
-    font-size: large;
-    font-weight: bold;
-    
-    width: auto;
-  }
+  } */
+  
