@@ -7,7 +7,7 @@
     overflow-x: hidden;
     }
     .fHeader{
-      
+      background-color: blanchedalmond ;
       color:black;
       padding: 15px;
       text-align: right;
@@ -30,3 +30,41 @@
       font-weight: 700;
       text-decoration: none;
     }
+    .Abt{
+      color: black;
+      font-weight: 500;
+      font-size:larger;
+      text-align: left;
+      overflow: hidden;
+      background-image: linear-gradient(to left, rgba(151, 24, 30, 0), rgb(255, 115, 0));
+      padding: 50px;
+      box-sizing: border-box;
+    }
+    button{
+      vertical-align: middle;
+      background-color:rgb(205, 245, 63);
+    }
+    .section{
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+    .center{
+      text-align: center;
+      font-weight: 500;
+      padding: 10px;
+    }
+    #row{
+      padding: 10px;
+      
+    }
+    #row img{
+      width: 400px;
+      height: 300px;
+      padding: 5px;
+      display: inline-block;
+      overflow: hidden; 
+    }
+.prject .h2{
+  text-align: center;
+}
+    

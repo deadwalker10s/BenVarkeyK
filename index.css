@@ -30,12 +30,30 @@
     font-weight: 700;
     text-decoration: none;
   }
+
+  .center{
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+  }
+  .form-group{
+    padding :50px;
+    font-size: larger;
+  }
+  .col-sm-6 img{
+  border-radius: 10%;
+  padding: 20px;
+  background-color: rgb(201, 239, 187);
+  width: 550px; 
+  }
+  .col-sm-6 form{
+    padding: 20px;
+  }
   .end{
     text-align: center;
     color: red;
     font-size: large;
     font-weight: bold;
-    
     width: auto;
   }
   
