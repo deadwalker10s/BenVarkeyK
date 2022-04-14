@@ -1,6 +1,5 @@
 *{
   margin: 0px;
-  
 }
   body {
   
@@ -30,7 +29,23 @@
     font-weight: 700;
     text-decoration: none;
   }
-
+  #txt{
+    background: rgb(255, 64, 64);
+    border-radius: 0ch;
+    text-align: center;
+    animation: hideMe 5s forwards;
+  }
+  @keyframes hideMe{
+    50%{
+        opacity: 1;
+    }
+    99.99%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
   .center{
     text-align: center;
     font-weight: 600;
