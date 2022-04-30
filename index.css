@@ -29,6 +29,13 @@
     font-weight: 700;
     text-decoration: none;
   }
+  #welcome{
+    width: 100%;
+    height:50%;
+  }
+  video::-webkit-media-controls {
+    display: none;
+  }
   #txt{
     background: rgb(255, 64, 64);
     border-radius: 0ch;
@@ -46,6 +53,7 @@
         opacity: 0;
     }
 }
+
   .center{
     text-align: center;
     font-weight: 600;

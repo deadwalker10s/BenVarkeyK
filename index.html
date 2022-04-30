@@ -3,10 +3,14 @@
   <title>Ben Varkey</title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 <body>
+  <!-- <script src="js/three.js"></script> -->
+  
+    
+
   <dialog open id="txt">For Better Experience Open In Desktop View</dialog>
   
     <header class="fHeader">
@@ -18,11 +22,21 @@
         
      </header>
   </div>
-  <div class="welcome">
-    Ben 3D will drop down and can be interfaced by the mouse i think so 
- </div>
- <div>
+  <canvas id="welcome">
+    <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>  
+    <script  type="importmap">{
+      "imports": {
+        "three": "https://threejs.org/build/three.module.js"
+      }
+    }</script>
+  <script type="module" src="index.js"></script>
+    
+  </canvas>
    
+ <div>
+  <video id="video" width="100%" height="100%"autoplay >
+    <source src="beauty.mp4" >
+  </video> 
  </div>
  <div class="container">
   <h1 class="center">Contact</h1>   
