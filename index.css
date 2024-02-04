@@ -1,5 +1,6 @@
 *{
   margin: 0px;
+<<<<<<< HEAD
   box-sizing: border-box;
   }
   body {
@@ -11,13 +12,38 @@
     display: block;
     background-color:rgb(0, 0, 0);
     color:white;
+=======
+}
+  body {
+  
+  overflow-x: hidden;
+  }
+  .fHeader{
+    
+    color:black;
+>>>>>>> 83edafb20fa2ccbc27a2284e25b0b4bc38f5926b
     padding: 15px;
+    text-align: right;
     font-family: "Poppins,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif";
+<<<<<<< HEAD
     font-size: 40px;
     overflow:hidden;
     width: 100%;
+=======
+    font-size: 20px;
+>>>>>>> 83edafb20fa2ccbc27a2284e25b0b4bc38f5926b
   }
+  .fHeader ul{
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+  }
+  .fHeader li{
+    display:inline-block;
+    }
+
   .fHeader a{
+<<<<<<< HEAD
     margin-left: 20px;
     text-decoration: none;
     color: inherit;
@@ -157,3 +183,62 @@
     text-shadow: 3px 3px 3px #ababab;
     
   }
+=======
+    display:block ;
+    padding: 10px;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  #welcome{
+    width: 100%;
+    height:50%;
+  }
+  video::-webkit-media-controls {
+    display: none;
+  }
+  #txt{
+    background: rgb(255, 64, 64);
+    border-radius: 0ch;
+    text-align: center;
+    animation: hideMe 5s forwards;
+  }
+  @keyframes hideMe{
+    50%{
+        opacity: 1;
+    }
+    99.99%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+  .center{
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+  }
+  .form-group{
+    padding :50px;
+    font-size: larger;
+  }
+  .col-sm-6 img{
+  border-radius: 10%;
+  padding: 20px;
+  background-color: rgb(201, 239, 187);
+  width: 550px; 
+  }
+  .col-sm-6 form{
+    padding: 20px;
+  }
+  .end{
+    text-align: center;
+    color: red;
+    font-size: large;
+    font-weight: bold;
+    width: auto;
+  }
+  
+>>>>>>> 83edafb20fa2ccbc27a2284e25b0b4bc38f5926b
