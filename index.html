@@ -2,58 +2,72 @@
 <head>
   <title>Ben Varkey</title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <link rel="stylesheet" href="main.css ">
+  <link rel="stylesheet" href="index.css">
   <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>  
   <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
   <script src="main.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header class="fHeader">
       <a href="">K Ben Varkey</a> 
-        <button class="resume" style="vertical-align: middle;"><span>My Resume</span>
+        <button class="resume" style="vertical-align: middle;">My Resume
         </button>
      </header>
   </div>
-  <div class="Abt">
-    <br><h3 class="font-effect-shadow-multiple">About Me</h3></br>
-    <p>Love's technology.</p>
-    <p>Love's software development, problem solving.</p>
-    <p>Love's integration of hardware and software.</p> 
-    <p>Intrested in Artificial Inteligents,Inteligent systems, Internet of Things, Cloud Computing.</p>
-    <p>Enthusiast and learning Augmented Reality,Virtual Reality</p>
+  <div class="jumbotron text-center">
+    <h3><strong>ABOUT ME </strong></h3>
+      <p>Love's technology.
+      <br>Love's software development, problem solving.
+      <br>Love's integration of hardware and software.
+      <br>Intrested in Inteligent systems, Internet of Things,Artificial Inteligents.
+      <br>Defence lover</p>
   </div>
   <div class="container">
-    <!--front-->
-    <div class="front">
-      <img src="ben.jpg" alt="person">
+    <div class="col-sm-6">
+     <img src="ben.JPG" alt="ABOUT"></div>
+     <div class="col-sm-6">
+     <form class="chatme">
+       <h3 style="text-align: center;">Chat</h3>
+       <label style="text-align: right;">Message</label><br>
+       <textarea placeholder="Comment,Review or Chat with me" name="msg" required style="width: 364px; height: 243px;"></textarea><br>
+       <br><button type="submit" class="button">Send</button>
+     </form>
     </div>
-     <!--back-->
-     <div class="back">
-       <div class="content">
-         <h1>Ben Varkey</h1>
-         <p>Computer Science Engineer</p>
-         <div class="icons">
-        <a href="https://www.facebook.com/ben.varkey.7/" class="fa fa-facebook" style="color: #3B5998;" target="_blank"></a>
-        <a href="https://www.instagram.com/benvarkey/" class="fa fa-instagram" target="_blank"></a>
-        <a href="https://github.com/deadwalker10s" class="fa fa-github" target="_blank"></a>
-        <a href="https://twitter.com/BenVarkey" class="fa fa-twitter" target="_blank" style="color: #55ACEE;"></a>
-        <a href="https://www.youtube.com/channel/UC2I6zLBYS7CjBKmcWaVvP7g" class="fa fa-youtube" style="color: red;" target="_blank"></a>
-         </div>
-       </div>
-     </div>
+    <div class="col-sm-8" style="font-size: medium;">
+      <!-- <div class="col-sm-6"> -->
+      <a href="https://www.facebook.com/ben.varkey.7" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/BenVarkey" class="fa fa-twitter"></a>
+      <a href="https://www.instagram.com/benvarkey/" class="fa fa-instagram"></a>  
+      <!-- <div class="col-sm-6"> -->
+      <a href="https://github.com/deadwalker10s" class="fa fa-github"></a>
+      <a href="https://t.me/Benvarkey" class="fa fa-telegram"></a>
+      <a href="https://www.youtube.com/channel/UC2I6zLBYS7CjBKmcWaVvP7g" class="fa fa-youtube"></a>
+      <a href="https://www.linkedin.com/in/ben-varkey-271374169/" class="fa fa-linkedin"></a>
+    </div>
   </div>
+
   <div class="skill">
-    <br><h3 class="font-effect-shadow-multiple">Skills</h3></br>
+    <br><h2 class="font-effect-shadow-multiple">Skills</h2>
+    <br><b>Tech. skills</b>     <!--  tech details  -->
+    <br>C++ Python  Javascript  Mysql 
+    <br><b>Softskills</b>       <!--  soft details  -->
+    <br>team work communication  decipline  
   </div>
-  <div class="certi">
+
+  <div class="certi">  <!--  certification details  -->
     <br><h3 class="font-effect-shadow-multiple">Certifications</h3></br>
   </div>
-  <div class="proj">
+
+  <div class="proj">    <!--  project details  -->
     <br><h3 class="font-effect-shadow-multiple">Projects</h3></br>
   </div>
-  <div class="other">
+
+  <div class="other">   <!--  other details  -->
     <br><h3 class="font-effect-shadow-multiple">Others</h3></br>
   </div>
+
 </body>
 </html> 

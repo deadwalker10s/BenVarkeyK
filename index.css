@@ -1,23 +1,29 @@
 *{
   margin: 0px;
+  box-sizing: border-box;
   }
   body {
-  background-color: rgb(49, 141, 168);
+  background-color:rgb(233, 97, 97);
+
+ 
   }
   .fHeader{
+    display: block;
     background-color:rgb(0, 0, 0);
     color:white;
     padding: 15px;
     font-family: "Poppins,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif";
     font-size: 40px;
-    overflow: hidden;
+    overflow:hidden;
     width: 100%;
   }
   .fHeader a{
+    margin-left: 20px;
     text-decoration: none;
     color: inherit;
   }
   .resume{
+  margin-right:20px;
   background-color:black;
   color: white;
   font-size: 40%;
@@ -28,7 +34,7 @@
   border-radius: 8px;
   border-color: black;
   transition-duration: 0.5s;
-  width: 10%;
+  width: auto;
   }
   .resume:hover{
     background-color: #bebebe;
@@ -36,74 +42,85 @@
   }
   .Abt{
     font-size: 25px;
-    margin: 50px;
-    padding: 30px;
-    height:100%;
-    width: 50%;
+    height:auto;
+    width: auto;
+    margin: inherit;
+    text-align: center;
     background-color: rgba(228, 228, 228, 0.548);
     backdrop-filter: blur(8px);
-    /*font-family: "Sofia", sans-serif*/;
+    
     text-shadow: 3px 3px 3px #ababab;
     line-height: 1.6;
   }
-  .container{
-    display:flex;
-    width: 250px;
-    height: 350px;
-    border-radius: 10px;
+  .Abt h3{
+    text-align: center;
+    padding: 50px;
     
-    perspective: 800px;
-    cursor: pointer;
-    /* margin-top: -500px;
-    margin-right: 200px; */
-    padding: 40px;
   }
-  .front, .back{
+  .container{
+    background-color: cornsilk;
+  }
+  .col-sm-6 img {
     width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    backface-visibility: hidden;
-    transition: transform .6s linear;
+
   }
-  .front{
-    transform: rotateY(0deg);
+  .fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 70px;
+    text-align: center;
+    text-decoration:none ;
+     margin: 5px 2px; 
   }
-  .front img{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-  }
-  .back{
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: black;
-    transform: rotateY(180deg);
-  }
-  .back .content{
-    height: 100%;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .content p{
-    padding: 10px 0;
-  }
-  .content .icons a{
-    padding: 8px;
-    font-size:35px;
-    text-decoration: none;
-    color: inherit;
-  }
-  .container:hover .front{
-    transform: rotateY(-180deg);
-  }
-  .container:hover .back{
-    transform: rotateY(0deg);
-  }
+.fa:hover {
+  color: black;   
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-github {
+  background: #125688;
+  color: white;
+}
+.fa-linkedin {
+  background: white;
+  color: #125688;
+}
+.fa-telegram {
+  background: white;
+  color: #125688;
+}
+.form-container{
+  max-width: 500px;
+  padding: 10px;
+  background-color: white;
+}
+.form-container textarea{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: both;
+  height: 1500px
+}
+.form-container label{
+  text-align: left;
+  position:fixed;
+}
   .skill{
     font-size: 25px;
     margin: 50px;
@@ -111,9 +128,6 @@
     backdrop-filter: blur(8px);
     font-family: "Sofia", sans-serif;
     text-shadow: 3px 3px 3px #ababab;
-    padding: 20px;
-    height: 100%; 
-    width: 50%;
   }
   .certi{
     font-size: 25px;
@@ -122,9 +136,7 @@
     backdrop-filter: blur(8px);
     font-family: "Sofia", sans-serif;
     text-shadow: 3px 3px 3px #ababab;
-    padding: 20px;
-    height: 100%; 
-    width: 50%;
+    
   }
   .proj{
     font-size: 25px;  
@@ -134,9 +146,7 @@
     backdrop-filter: blur(8px);
     font-family: "Sofia", sans-serif;
     text-shadow: 3px 3px 3px #ababab;
-    padding: 20px;
-    height: 100%; 
-    width: 50%;
+    
   }
   .other{
     font-size: 25px;  
@@ -145,7 +155,5 @@
     backdrop-filter: blur(8px);
     font-family: "Sofia", sans-serif;
     text-shadow: 3px 3px 3px #ababab;
-    padding: 20px;
-    height: 100%; 
-    width: 100%;
+    
   }
