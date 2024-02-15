@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 #BenVarkeyK.js.org
-=======
-# BenVarkeyK
->>>>>>> 83edafb20fa2ccbc27a2284e25b0b4bc38f5926b
 My Protfolio Website
 
 #   3D Name
